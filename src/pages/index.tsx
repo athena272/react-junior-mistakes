@@ -5,8 +5,10 @@ import Mistake9 from "./Mistakes/9";
 
 export default function Home() {
   return (
-    <>
-      <Mistake9 />
-    </>
+      <main
+        className={`flex min-h-screen flex-col items-center p-24`}
+      >
+        <Mistake9 />
+      </main>
   );
 }
