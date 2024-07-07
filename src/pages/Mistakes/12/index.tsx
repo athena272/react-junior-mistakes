@@ -20,9 +20,7 @@ export default function Mistake12() {
     }
 
     return (
-        <main
-            className={`flex min-h-screen flex-col items-center p-24`}
-        >
+        <>
             <button
                 onClick={handleClick}
                 className="group rounded-lg border px-5 py-4 transition-colorsborder-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 text-[2rem]"
@@ -30,6 +28,6 @@ export default function Mistake12() {
                 Click on me
             </button>
             <h1 className="mt-[70px] text-[2.5rem]">Count is: {count}</h1>
-        </main>
+        </>
     )
 }
