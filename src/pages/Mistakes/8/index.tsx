@@ -2,7 +2,7 @@
 import { useState } from "react"
 const PRICE_PER_ITEM = 5 
 
-export default function Mistake12() {
+export default function Mistake8() {
     const [quantity, setQuantity] = useState(0)
     const totalQuantity = quantity * PRICE_PER_ITEM
     // const fullName 
