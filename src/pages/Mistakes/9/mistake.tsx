@@ -1,6 +1,10 @@
 import { useState } from "react"
 
 export default function Mistake9() {
+    /*****************************************************
+        Object state  instead of multiple smaller ones
+    ******************************************************/
+
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
