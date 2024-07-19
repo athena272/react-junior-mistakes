@@ -5,13 +5,6 @@ import { useState } from "react"
 export default function Mistake12() {
     const [count, setCount] = useState(0)
 
-    // const handleClick = () => {
-    //     setCount(count + 1) // setCount(0 + 1)
-    //     setCount(count + 1) // setCount(0 + 1)
-    //     setCount(count + 1) // setCount(0 + 1)
-    //     setCount(count + 1) // setCount(0 + 1)
-    // }
-
     const handleClick = () => {
         setCount(prevState => prevState + 1)
         setCount(prevState => prevState + 1)
