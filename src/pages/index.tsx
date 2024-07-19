@@ -4,13 +4,14 @@ import Mistake10 from "./Mistakes/10";
 import Mistake9 from "./Mistakes/9";
 import Mistake8 from "./Mistakes/8";
 import Mistake7 from "./Mistakes/7";
+import Mistake6 from "./Mistakes/6";
 
 export default function Home() {
   return (
       <main
         className={`flex min-h-screen flex-col items-center p-24`}
       >
-        <Mistake7 />
+        <Mistake6 />
       </main>
   );
 }
