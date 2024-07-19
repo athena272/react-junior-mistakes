@@ -2,9 +2,9 @@
 import { useEffect, useState } from "react"
 const PRICE_PER_ITEM = 5 
 
-export default function Mistake12() {
+export default function Mistake8() {
     /***********************************************
-      Information can be derived from state/props
+      Information can be derived from state / props
     ************************************************/
     const [quantity, setQuantity] = useState(0)
     const [totalQuantity, setTotalQuantity] = useState(0)
