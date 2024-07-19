@@ -5,6 +5,7 @@ const PRICE_PER_ITEM = 5
 export default function Mistake12() {
     const [quantity, setQuantity] = useState(0)
     const totalQuantity = quantity * PRICE_PER_ITEM
+    // const fullName 
 
     const handleClick = () => {
         setQuantity(quantity + 1)
