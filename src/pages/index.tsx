@@ -6,13 +6,14 @@ import Mistake8 from "./Mistakes/8";
 import Mistake7 from "./Mistakes/7";
 import Mistake6 from "./Mistakes/6";
 import Mistake2 from "./Mistakes/2";
+import Mistake1 from "./Mistakes/1";
 
 export default function Home() {
   return (
       <main
         className={`flex min-h-screen flex-col items-center p-24`}
       >
-        <Mistake2 />
+        <Mistake1 />
       </main>
   );
 }
